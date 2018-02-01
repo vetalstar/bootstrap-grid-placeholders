@@ -1,5 +1,5 @@
 Importing [`_grid.scss`](https://github.com/vetalstar/bootstrap-grid-placeholders/blob/master/scss/_grid.scss) can help you to use bootstrap v 4.0.0 grid only.
-Main classes are converted to SASS placeholders, because it doesn't support @import (reference), as in LESS.
+Main classes are converted to SASS placeholders, because it doesn't support `@import (reference)`, as in LESS.
 
 ## This means that:
 
@@ -10,7 +10,7 @@ Main classes are converted to SASS placeholders, because it doesn't support @imp
 
 1. Clone the repo: `git clone https://github.com/vetalstar/bootstrap-grid-placeholders.git`
 2. Run `composer install` to install bootstrap v 4.0.0
-3. See [`_example.scss`](https://github.com/vetalstar/bootstrap-grid-placeholders/blob/master/scss/_example.scss).
+3. See [`example.scss`](https://github.com/vetalstar/bootstrap-grid-placeholders/blob/master/scss/example.scss).
  
 
 ## For example
