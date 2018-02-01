@@ -1,0 +1,34 @@
+/** Import main bootstrap dependencies for grid */
+@import "../vendor/twbs/bootstrap/scss/functions";
+@import "../vendor/twbs/bootstrap/scss/variables";
+
+@import "../vendor/twbs/bootstrap/scss/mixins/breakpoints";
+@import "../vendor/twbs/bootstrap/scss/mixins/grid";
+@import "../vendor/twbs/bootstrap/scss/mixins/hover";
+
+@import "../vendor/twbs/bootstrap/scss/reboot";
+
+
+/** Import bootstrap grid PLACEHOLDERS */
+@import "grid";
+
+/** Use it without compiling bootstrap classes */
+.block {
+  @extend %container-fluid;
+
+  &__wrapper {
+    @extend %row;
+
+    &_modificator {
+      @extend %no-gutters;
+    }
+  }
+
+  &__element {
+    @extend %col-md-10;
+  }
+
+  &__element2 {
+    @extend %col-md-2;
+  }
+}
